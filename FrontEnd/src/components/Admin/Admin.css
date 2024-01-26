@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar nav li:hover,
+  .sidebar nav li.active {
+    background-color: #555;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .user-list,
+  .product-list {
+    margin-top: 20px;
+  }
+  
+  .user-list button,
+  .product-list button {
+    margin-bottom: 20px;
+  }
